@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate a Broadlink IR code for RME ADI-2 NEC commands.
+Generate a Broadlink IR code for RME ADI-2, ADI-2 Pro, ADI-2/4 NEC commands.
 
 Usage:
     python generate_broadlink_ir.py HEX_COMMAND
