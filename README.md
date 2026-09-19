@@ -6,7 +6,9 @@ Usage:
 Example:
     python generate_broadlink_ir.py 2E
 
-The RME documentation specifies the manufacturer ID as 0x1234.
+The RME documentation and IR tables are available at https://rme-audio.de
+
+Note: 
+RME documentation specifies the manufacturer ID as 0x1234.
 Since NEC transmits each field LSB-first, the value appearing
 in the transmitted bit stream is 0x4321.
-
