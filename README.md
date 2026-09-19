@@ -1,14 +1,21 @@
-Generate a Broadlink IR code for RME ADI-2/ADI-2 Pro/ADI-2/4 NEC commands.
+# generate_broadlink_ir.py
 
-Usage:
-    python generate_broadlink_ir.py HEX_COMMAND
+Generate a Broadlink IR code for RME ADI-2 / ADI-2 Pro / ADI-2/4 NEC commands.
 
-Example:
-    python generate_broadlink_ir.py 2E
+## Usage
 
-The RME documentation and IR tables are available at https://rme-audio.de
+```
+python generate_broadlink_ir.py HEX_COMMAND
+```
 
-Note: 
-RME documentation specifies the manufacturer ID as 0x1234.
-Since NEC transmits each field LSB-first, the value appearing
-in the transmitted bit stream is 0x4321.
+### Example
+
+```
+python generate_broadlink_ir.py 2E
+```
+
+RME documentation and IR tables are available at https://rme-audio.de
+
+## Note
+
+RME documentation specifies the manufacturer ID as `0x1234`. Since NEC transmits each field LSB-first, the value appearing in the transmitted bit stream is `0x4321`.
