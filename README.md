@@ -18,4 +18,4 @@ RME documentation and IR tables are available at https://rme-audio.de
 
 ## Note
 
-RME documentation specifies the manufacturer ID as `0x1234`. Since NEC transmits each field LSB-first, the value appearing in the transmitted bit stream is `0x4321`.
+RME documentation specifies the manufacturer ID as `0x1234`. Since NEC transmits each field LSB-first, the value in the transmitted bit stream is `0x3412`.
