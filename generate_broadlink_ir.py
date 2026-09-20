@@ -10,7 +10,7 @@ Example:
 
 The RME documentation specifies the manufacturer ID as 0x1234.
 Since NEC transmits each field LSB-first, the value appearing
-in the transmitted bit stream is 0x4321.
+in the transmitted bit stream is 0x3412.
 """
 
 import sys
@@ -19,8 +19,8 @@ import sys
 # RME manufacturer ID.
 #
 # Documented value: 0x1234
-# Transmitted LSB-first: 0x4321
-RME_MANUFACTURER_ID = 0x4321
+# Transmitted LSB-first: 0x3412
+RME_MANUFACTURER_ID = 0x3412
 
 
 # Broadlink: one unit ~= 8192 / 269 microseconds
