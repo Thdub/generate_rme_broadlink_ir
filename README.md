@@ -18,8 +18,8 @@ RME documentation and IR tables are available at https://rme-audio.de
 
 ## Notes
 
-Verified on ADI-2 Pro hardware (codes match the original remote bit for bit).
-ADI-2 DAC and ADI-2/4 codes are generated from the RME tables and have not been tested on hardware.
+- Verified on ADI-2 Pro hardware (codes match the original remote bit for bit).
+- ADI-2 DAC and ADI-2/4 codes are generated from the RME tables and have not been tested on hardware.
 
 ### RME IR command tables (.ods)
 
