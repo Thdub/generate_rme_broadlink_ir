@@ -4,17 +4,11 @@ Generate a Broadlink IR code for RME ADI-2 / ADI-2 Pro / ADI-2/4 NEC commands.
 
 ## Usage
 
-```
-python generate_broadlink_ir.py HEX_COMMAND
-```
+    python generate_broadlink_ir.py HEX_COMMAND
 
 ### Example
 
-```
-python generate_broadlink_ir.py 2E
-```
-
-RME documentation and IR tables are available at https://rme-audio.de
+    python generate_broadlink_ir.py 2E
 
 ## Notes
 
@@ -23,10 +17,11 @@ RME documentation and IR tables are available at https://rme-audio.de
 
 ### RME IR command tables (.ods)
 
+IR codes are calculated from RME's own published tables, © Ralf Männel for RME GmbH:
+
 - ADI-2 DAC: https://www.rme-audio.de/downloads/adi2dac_ir_commands.zip
 - ADI-2 Pro: https://www.rme-audio.de/downloads/adi2pro_ir_commands.zip
 - ADI-2/4 Pro: https://rme-audio.de/downloads/adi24pro_ir_commands.zip
-
 
 ### Errors in the RME tables
 
