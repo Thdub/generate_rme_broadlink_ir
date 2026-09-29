@@ -25,7 +25,7 @@ IR codes are calculated from RME's own published tables, © Ralf Männel for RME
 
 ### RME table errors (fixed)
  
-Make sure you download the current RME tables from the links above — three rows used to have a mismatch between the hex column and the binary column, fixed by RME in September 2026:
+Make sure you download the current RME tables from the links above: three rows used to have a mismatch between the hex column and the binary column, fixed by RME in September 2026:
  
 - ADI-2 DAC, Setup 7: hex `30` vs binary `3C`
 - ADI-2 DAC, Setup 8: hex `3C` vs binary `3D`
