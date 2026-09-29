@@ -29,5 +29,6 @@ Make sure you download the current RME tables from the links above, in previous 
  
 - ADI-2 DAC, Setup 7: hex `30` vs binary `3C`
 - ADI-2 DAC, Setup 8: hex `3C` vs binary `3D`
-- ADI-2/4, Volume -: hex `61` vs binary `A1`  
+- ADI-2/4, Volume -: hex `61` vs binary `A1`
+
 The values used here (`3C`, `3D`, `61`) match the corrected tables.
