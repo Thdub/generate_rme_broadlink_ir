@@ -23,10 +23,9 @@ IR codes are calculated from RME's own published tables, © Ralf Männel for RME
 - ADI-2 Pro: https://www.rme-audio.de/downloads/adi2pro_ir_commands.zip
 - ADI-2/4 Pro: https://rme-audio.de/downloads/adi24pro_ir_commands.zip
 
-### RME table errors (fixed)
+### RME table errors (Fixed by RME in September 2026)
  
-Make sure you download the current RME tables from the links above, in previous files three rows used to have a mismatch between the hex column and the binary column.  
-Fixed by RME in September 2026.
+Make sure you download the current RME tables from the links above, in previous files three rows used to have a mismatch between the hex column and the binary column.
  
 - ADI-2 DAC, Setup 7: hex `30` vs binary `3C`
 - ADI-2 DAC, Setup 8: hex `3C` vs binary `3D`
